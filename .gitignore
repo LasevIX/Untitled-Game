@@ -1,3 +1,4 @@
 g-env/
 __pycache__/
 *.log
+.vscode/
