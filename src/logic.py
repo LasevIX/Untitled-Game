@@ -5,3 +5,4 @@ logging.basicConfig(
     filename="game.log", format="%(asctime)s %(levelname)s :%(message)s"
 )
 log = logging.log
+logging.log(INFO,"logic: import success")
