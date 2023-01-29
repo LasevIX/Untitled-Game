@@ -41,7 +41,6 @@ class BuildItem(ConsumableItem):
 
 class floorTile(pg.sprite.Sprite):
     player_collideable: bool
-    sprite: pg.sprite.Sprite
     z_index: int
 
 
