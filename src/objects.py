@@ -87,7 +87,6 @@ class tileMap:
             self.size = self.width, self.height = len(self._maparray), len(
                 self._maparray[0]
             )
-            print("MAP USED:",self._maparray)
         else: raise ValueError
 
     def get_tile(self, x, y) -> floorTile:  #TODO
@@ -99,5 +98,4 @@ class tileMap:
         arr: list[list[emptyFloorTile]] = [
             column[y : y + height] for column in self._maparray[x : x + width]
         ]
-        print(type(arr), len(arr))
         return tileMap(maparray_to_use=arr)
